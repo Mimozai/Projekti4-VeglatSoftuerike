@@ -1,30 +1,23 @@
-Projekti 4 - Menaxhimi i Kodit Burimor (Tic-Tac-Toe)
+ Projekti 4 - Menaxhimi i Kodit Burimor (Tic-Tac-Toe)
 
-1. Përshkrimi i Projektit
-   Ky projekt paraqet implementimin e lojës Tic-Tac-Toe në gjuhën C++. Fokus kryesor është aplikimi i veglave për menaxhimin e kodit (GitHub) dhe bashkëpunimi në grup përmes ndarjes së detyrave.
+ 1. Përshkrimi i Projektit
+Ky projekt paraqet implementimin e lojës Tic-Tac-Toe në gjuhën C++. Fokus kryesor i kësaj detyre është aplikimi i veglave për menaxhimin e kodit (GitHub) dhe ndjekja e ciklit profesional të zhvillimit përmes degëve (branches) dhe bashkimit të kodit përmes Pull Requests.
 
-2. Implementimi i Logjikës (Puna ime individuale)
-   Në këtë projekt, unë kam qenë përgjegjëse për zhvillimin e strukturës bazë dhe logjikës së lëvizjeve në skedarin Source1.cpp. Funksionet e realizuara nga unë janë:
+ 2. Implementimi i Logjikës (Dorëzim Individual)
+Në këtë projekt, kam përfunduar logjikën e plotë të lojës në skedarin `Source1.cpp`. Funksionet e realizuara janë:
+* `displayBoard()`: Shfaqja e tabelës 3x3 në konsollë.
+* `switchPlayer()`: Ndërrimi i radhës mes lojtarëve 'X' dhe 'O'.
+* `makeMove()`: Regjistrimi dhe validimi i lëvizjeve të lojtarëve.
+* `checkWin()`: Logjika që kontrollon fitoren në rreshta, kolona dhe diagonale.
+* `checkDraw()`: Funksioni që kontrollon nëse tabela është mbushur pa pasur një fitues.
+* `main()`: Cikli kryesor i lojës që lidh të gjitha funksionet dhe mundëson rrjedhën e plotë të lojës.
 
-   displayBoard(): Vizatimi dhe shfaqja e matricës 3x3 në konsolë.
-
-   switchPlayer(): Logjika për ndërrimin e radhës mes lojtarit 'X' dhe 'O'.
-
-   makeMove(int choice): Përpunimi i inputit të lojtarit dhe regjistrimi i lëvizjes në tabelë.
-
-3. Menaxhimi i GitHub dhe Bashkëpunimi
-   Si pjesë e detyrës sime për menaxhimin e repository-t, kam ndjekur këto hapa teknikë:
-
-   Branches: Zhvillimi i pjesës sime është bërë në degën specifike feature-logjika-mimoza.
-
-   Pull Requests (PR): Kam realizuar integrimin e kodit tim në degën kryesore përmes Pull Request #2.
-
-   Konfigurimi: Kam krijuar skedarin .gitignore për të pastruar repository-n nga skedarët e panevojshëm të sistemit.
-
+ 3. Menaxhimi i GitHub
+Gjatë punës kam demonstruar përdorimin e këtyre veglave dhe teknikave:
+* **Branches:** Zhvillimi i logjikës finale është bërë në degën specifike `finalizimi-projektit-individual`.
+* **Pull Requests (PR):** Integrimi i kodit final në degën kryesore (main) është kryer përmes **Pull Request #4**.
+* **Commits:** Çdo hap i punës është dokumentuar me mesazhe të qarta për të mbajtur një historik të pastër të ndryshimeve.
 
 4. Udhëzime për Setup
-   Clone: git clone https://github.com/Mimozai/Projekti4-VeglatSoftuerike.git
-
-   Hapja: Hapni skedarin Source1.cpp në Visual Studio.
-
-   Run: Compilo dhe ekzekuto kodin për të parë funksionalitetet e implementuara.
+* **Clone:** `git clone https://github.com/Mimozai/Projekti4-VeglatSoftuerike.git`
+* **Ekzekutimi:** Hapni skedarin `Source1.cpp` në Visual Studio, kompilo dhe ekzekuto kodin për të filluar lojën.
